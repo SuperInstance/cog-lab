@@ -3,5 +3,11 @@
   "version": "0.1.0",
   "description": "The Cog Thesis, tested: determinacy + transfer-gap lab over quilt-dba engine cells",
   "type": "module",
-  "scripts": { "run": "node src/run.mjs", "test": "node --test test/cog.test.mjs" }
+  "scripts": {
+    "run": "node src/run.mjs",
+    "test": "node --test test/cog.test.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
 }
